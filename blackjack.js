@@ -177,7 +177,7 @@ function checkForEndOfGame() {
 
 function showStatus() {
   if (!gameStarted) {
-    textArea.innerText = "Welcome to Blackjack!";
+    textArea.innerText = "You gotta know when to hold 'em, know when to fold 'em, know when to walk away."
     return;
   }
 
